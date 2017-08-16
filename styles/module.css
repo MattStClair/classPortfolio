@@ -6,5 +6,21 @@
 
     margin-left: 20%;
     margin-right: 20%;
+    background-color: grey;
+    clear: both;
+    text-align: center;
+
+}
+
+.main-nav: ul {
+
+  text-decoration: none;
+  display: inline;
+  float: right;
+  margin-right: 20%;
+}
+
+.heading-group-h1{
+  font-size: 1.5em;
 
 }
