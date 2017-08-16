@@ -1,0 +1,13 @@
+/*try only manipulating large elements in here*/
+
+
+
+body {
+    margin-left: 20%;
+    padding: 0;
+}
+
+img {
+        max-width: 40%;
+
+}
