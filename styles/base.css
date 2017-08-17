@@ -7,7 +7,7 @@ body {
     border: 3px solid red;
 }
 
-.article-body img {
+#myPic {
       max-width: 40%;
 
 }
@@ -33,9 +33,10 @@ footer{
     body {
         background-color: lightblue;
     }
-    #myPic {
+   #myPic {
       float:left;
       margin: 2%;
+      width: 40% ;
     }
   .article-body {
         float:right;
