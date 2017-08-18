@@ -1,2 +1,31 @@
 
 /*try only manipulating only specifics like ids in here*/
+#myPic {
+      max-width: 40%;
+
+}
+#home{
+
+
+}
+
+#carousel {
+		width: 30em;
+		overflow:hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+	}
+
+	#carousel ul {
+		width: 120em;
+		padding: 0;
+		margin: 0;
+	}
+
+	#carousel ul li {
+		width:30em;
+		text-align: center;
+		height: 280px;
+		list-style: none;
+		float:	left;
+	}
