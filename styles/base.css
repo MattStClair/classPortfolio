@@ -7,22 +7,18 @@ body {
     border: 3px solid red;
 }
 
-#myPic {
-      max-width: 40%;
 
-}
 
-ul li{
+ .main-nav li{
   text-decoration: none;
-  display: inline;
-  float: right;
+  display: inline-block;
+
   margin-top: 5%;
   height: 5%;
   width: 8%;
+  padding-right: 10%;
 
-  padding-right: 2%;
-
-}
+}*/
 
 footer{
 
@@ -40,5 +36,8 @@ footer{
     }
   .article-body {
         float:right;
+}
+#about{
+  margin-right: 250px;
 }
 }
