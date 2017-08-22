@@ -1,6 +1,10 @@
 'use strict';
 
 
+//create array of images
+
+// var images = [$('#image'), $('#image'), $('#image')];
+
 function clickHome (){
   $('#home').click(function(){
     $('.techskills-body').show();
@@ -17,11 +21,11 @@ function clickAboutMe (){
 
 function carouselImage(){
   var timer = setInterval(function(){
-    $("#carousel ul").animate({marginleft:-480}, 1000, function(){
-      $(this).find("li:last").after($(this).find("li:first"));
+    $('#carousel ul').animate({marginleft:-480}, 1000, function(){
+      $(this).find('li:last').after($(this).find('li:first'));
       $(this).css({marginLeft:0});
     });
-  },5000);
+  },2000);
 }
 
 

@@ -4,13 +4,19 @@
       max-width: 40%;
 
 }
-#home{
+.mywork ul li a{
+  display: inline;
+  list-style-type: none;
 
+}
+
+#carousel img {
+    width: 100%;
 
 }
 
 #carousel {
-		width: 30em;
+		width: 58%;
 		overflow:hidden;
     margin-left: 20%;
     margin-right: 20%;
@@ -23,7 +29,7 @@
 	}
 
 	#carousel ul li {
-		width:30em;
+		width:27%;
 		text-align: center;
 		height: 280px;
 		list-style: none;
