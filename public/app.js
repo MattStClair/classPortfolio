@@ -1,9 +1,6 @@
 'use strict';
 
 
-//create array of images
-
-// var images = [$('#image'), $('#image'), $('#image')];
 
 function clickHome (){
   $('#home').click(function(){
@@ -31,7 +28,6 @@ function carouselImage(){
 
 
 $(document).ready(function(){
-
 
   $('.about-body').hide();
   carouselImage();

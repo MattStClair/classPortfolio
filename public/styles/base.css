@@ -9,16 +9,6 @@ body {
 
 
 
- .main-nav li{
-  text-decoration: none;
-  display: inline-block;
-
-  margin-top: 5%;
-  height: 5%;
-  width: 8%;
-  padding-right: 10%;
-
-}*/
 
 footer{
 
@@ -34,10 +24,7 @@ footer{
       margin: 2%;
       width: 40% ;
     }
-  .article-body {
-        float:right;
-}
+
 #about{
   margin-right: 250px;
-}
 }

@@ -9,12 +9,19 @@
    <link rel="stylesheet" href="styles/base.css">
    <link rel="stylesheet" href="styles/layout.css">
    <link rel="stylesheet" href="styles/module.css">
+   <!--need to make this work with jscript  -->
+   <script id="address-template" type="text/x-handlebars-template">
+   <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+ </script>
+
+ <!--Your new content will be displayed in here-->
 </head>
 <body>
   <nav class="main-nav">
     <ul>
       <li><button id="home"><h2>Home</h2></button> </li>
       <li> <button id="about"><h2>About</h2></button> </li>
+      <li> <a href="https://medium.com/@stclairm" target="_blank"><button id ="social"><h2>Social</h2></button> </a></li>
     </nav>
   <header class="header">
     <section class="heading-group-h1">
@@ -28,7 +35,7 @@
 </section>
   <main>
         <section class="techskills-body">
-        <img id="myPic" src = images/MeOnABoat.png>
+          <div class="content-placeholder"></div>
           <p>Im good at tech stuff Im good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuffIm good at tech stuff</p>
       </article>
       <article class="project-carousel">
@@ -49,18 +56,18 @@
 
     </section>
     <section class="about-body">
-    <img id="myPic" src = http://via.placeholder.com/350x150>
+    <img id="myPic" src = images/MeOnABoat.png>
        <p>Hello, my name is Matt St.Clair. I am an Air Force veteran and a mental health therapist, transitioning into the web development field. I am finishing a B.S. in computer applications development from Renton Technical College while also taking full stack web development courses at Codefellows code camp in Seattle. I enjoy front end as well as back end work but am especially fascinated with UX design and how it blends with my social sciences background. I also enjoy front-end work because it allows me to collaborate and create with clients. </p>
     </section>
-
-
-
 
   </main>
   <footer>
     &copy; 2017 Matt St.Clair | PortFolio | Thanks
   </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+
 </body>
 </html>
