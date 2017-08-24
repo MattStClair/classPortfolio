@@ -1,7 +1,6 @@
 
 /*try only manipulating classes in here*/
 
-
 .article-body{
 
     margin-left: 20%;
@@ -12,11 +11,7 @@
 
 }
 
-.main-nav {
-    float: right;
-    margin: 5px;
 
-}
 
 .heading-group-h1{
   font-size: 1.5em;
