@@ -2,18 +2,26 @@
 /*try only manipulating classes in here*/
 
 .article-body{
-
     margin-left: 20%;
     margin-right: 20%;
     background-color: grey;
     clear: both;
     text-align: center;
-
 }
-
 
 
 .heading-group-h1{
   font-size: 1.5em;
+
+}
+
+.main-nav{
+  display: inline;
+  float:right;
+  position: fixed;
+}
+
+.hamburger{
+float: left;
 
 }
