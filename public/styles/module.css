@@ -18,4 +18,10 @@
 .main-nav{
   display: inline;
   float:right;
+  position: fixed;
+}
+
+.hamburger{
+float: left;
+
 }

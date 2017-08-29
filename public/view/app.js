@@ -1,5 +1,6 @@
 'use strict';
 
+
 $(function () {
   // Grab the template script
   var homeTemplate = $("#home-template").html();
@@ -38,6 +39,13 @@ $(function () {
   $('.about-body').html(theCompiledHtml);
 });
 
+function clickBurger(){
+  $('.hamburger').click(function(){
+    $('.main-nav').show();
+  });
+
+}
+
 
 
 function clickHome (){
@@ -65,9 +73,9 @@ function carouselImage(){
 }
 
 
-
 $(document).ready(function(){
   $('.about-body').hide();
+  clickBurger();
   carouselImage();
   clickHome();
   clickAboutMe();
