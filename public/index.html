@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/normalize.css">  <!--doesnt ruin styles-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet"><!--fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--hamburger-->
    <link rel="stylesheet" href="styles/base.css">
    <link rel="stylesheet" href="styles/layout.css">
    <link rel="stylesheet" href="styles/module.css">
-   <!--need to make this work with jscript  -->
    <script id="home-template" type="text/x-handlebars-template">
-   <p>{{body}}.</p>
- </script>
- <script id="about-template" type="text/x-handlebars-template">
- <p>{{body}}.</p>
-</script>
+        <p>{{body}}.</p>
+  </script>
+  <script id="about-template" type="text/x-handlebars-template">
+       <p>{{body}}.</p>
+  </script>
 </head>
 <body>
-  <nav class="main-nav">
+  <nav class="main-nav"><!--NAV----------------------------------------------->
     <ul>
       <li><button id="home"><h2>Home</h2></button> </li>
       <li> <button id="about"><h2>About</h2></button> </li>
@@ -28,6 +27,7 @@
     <nav class = "hamburger">
       <i class="fa fa-bars"></i>
     </nav>
+    <!--header----------------------------------------------->
   <header class="header">
     <section class="heading-group-h1">
       <ul class = "mywork">
@@ -36,15 +36,12 @@
       </ul>
         <h1 id="name1">MATT </h1>
         <h1 id="name2"> ST.CLAIR</h1>
-  </header>
+  </header><!--end of header----------------------------------------------->
 </section>
-  <main>
-        <section class="techskills-body">
-
-          <!--Your new content will be displayed in here-->
+  <main> <!--start of body-->
+        <section class="techskills-body"><!--accessed in handlebars----------------------------------------------->
+          <!--Your new content will be displayed in here, sourced from app.js currently-->
           <div class="content-placeholder"></div>
-
-      </article>
       <article class="project-carousel">
         <header>
           <table>
@@ -59,10 +56,13 @@
           <li><img src=images/raysImage.png> </li>
         </ul>
       </div>
+
+      <div id="results"></div><!--put my githu stuff here-->
+
       </article>
 
     </section>
-    <section class="about-body">
+    <section class="about-body"><!--accessed in handlebars----------------------------------------------->
 
      <img id="myPic" src =images/MeOnABoat.png>
 
