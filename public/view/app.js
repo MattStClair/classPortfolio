@@ -1,14 +1,15 @@
 'use strict';
 
 
+$.get('/github/user/repos')
+// .then(success, fail)
+.then(
+  // success
+  data => data.forEach(repo => $('#results').append(`<p>${repo.name}</p>`)),
+  // fail
+  err => console.error(err.status, err.statusText, 'is the way my stuff is broken'))
+
 $(function () {
-  $.get('/github/user/repos')
-  // .then(success, fail)
-  .then(
-    // success
-    data => data.forEach(repo => $('#results').append(`<p>${repo.name}</p>`)),
-    // fail
-    err => console.error(err.status, err.statusText, 'is the way my stuff is broken'))
   // Grab the template script
   var homeTemplate = $("#home-template").html();
 
